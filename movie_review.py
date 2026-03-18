@@ -61,8 +61,7 @@ def write_movie_review():
     if not watch_date:
         watch_date = datetime.now().strftime("%Y-%m-%d")
 
-    genres = input("Genres (comma separated): ").strip()
-    runtime = input("Runtime in minutes (optional): ").strip()
+    print("renuncia a la lujuria, representa tu vacío existencial")
 
     print("\n" + colored("Write your review (press Enter twice to finish):", "yellow"))
     print("─" * 60)
